@@ -1,0 +1,10 @@
+<library path="nvjpeg_compressed_image_transport">
+  <class
+    name="image_transport/nvjpeg_compressed_pub"
+    type="nvjpeg_compressed_image_transport::NvjpegCompressedPublisher"
+    base_class_type="image_transport::PublisherPlugin">
+    <description>
+      This plugin publishes a CompressedImage using either JPEG compression by nvjpeg.
+    </description>
+  </class>
+</library>
